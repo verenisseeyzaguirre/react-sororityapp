@@ -14,14 +14,14 @@ import '../assets/styles/App.scss';
 const App = () => (
   <BrowserRouter>
     <Route exact path='/' component={Welcome} />
-    <Route exact path='/signup' component={Signup} />
-    <Route exact path='/login' component={Login} />
-    <Route exact path='/profile' component={Profile} />
-    <Route exact path='/home' component={Home} />
-    <Route exact path='/chat' component={Chat} />
-    <Route exact path='/community' component={Community} />
-    <Route exact path='/specialists' component={Specialists} />
-    <Route exact path='/onechat' component={OneChat} />
+    <Route exact path='./signup' component={Signup} />
+    <Route exact path='./login' component={Login} />
+    <Route exact path='./profile' component={Profile} />
+    <Route exact path='./home' component={Home} />
+    <Route exact path='./chat' component={Chat} />
+    <Route exact path='./community' component={Community} />
+    <Route exact path='./specialists' component={Specialists} />
+    <Route exact path='./onechat' component={OneChat} />
   </BrowserRouter>
 );
 
